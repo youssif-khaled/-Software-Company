@@ -1,0 +1,754 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+    color: #666;
+    background: #fff;
+}
+h1,  h2,  h3,  h4,  h5,  h6 {
+    color: #282828;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    color: #999;
+    line-height: 1.75em;
+}
+
+/*header*/
+header{
+    width: 100%;
+    height:100vh;
+}
+header .carousel {
+    width: 100%;
+    height: auto;
+}
+header .carousel  .img1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/slideshow-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .carousel  .img2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/slideshow-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .carousel  .img3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/slideshow-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .carousel  .img1 .navbar {
+    width:90%;
+    height: auto;
+    margin-left: auto;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+header .carousel  .img2 .navbar {
+    width:90%;
+    height: auto;
+    margin-left: auto;
+    position: fixed;
+  right: 0px;
+  top: 0px;
+    
+  
+}
+header .carousel  .img3 .navbar {
+    width:90%;
+    height: auto;
+    margin-left: auto;
+    position: fixed;
+  right: 0px;
+  top: 0px;
+  
+}
+
+header .carousel  .img1 .navbar .logo1 {
+    padding: 20px;
+    width: 20%;
+    height:auto;
+   
+    
+}
+header .carousel  .img2 .navbar .logo1 {
+    padding: 20px;
+    width: 20%;
+    height:auto;
+    
+}
+header .carousel  .img3 .navbar .logo1 {
+    padding: 20px;
+    
+}
+header .carousel  .img1 .navbar .logo1 img{
+    width: 140px;
+    
+}
+header .carousel  .img2 .navbar .logo1 img{
+    width: 140px;
+    
+}
+header .carousel  .img3 .navbar .logo1 img{
+    width: 140px;
+    
+}
+header .carousel  .img1 .navbar .item{
+   width: 70%;
+display: flex;
+justify-content:center;
+margin-left: 100px;
+
+}
+header .carousel  .img2 .navbar .item{
+    width: 70%;
+  padding: 10px;
+ display: flex;
+ justify-content: flex-end;
+ 
+ }
+ header .carousel  .img3 .navbar .item{
+    width: 70%;
+  padding: 10px;
+ display: flex;
+ justify-content: flex-end;
+ 
+ }
+header .carousel  .img1 .navbar .item .navbar-nav .nav-item{
+  margin-left: 20px;
+  
+ }
+ header .carousel  .img2 .navbar .item .navbar-nav .nav-item{
+    margin-left: 20px;
+    
+   }
+   header .carousel  .img3 .navbar .item .navbar-nav .nav-item{
+    margin-left: 20px;
+    
+   }
+   /*attributes-navlink */
+    
+   .nav-link{ 
+    font-size: 13px;  font-weight: 600;
+    letter-spacing: .5px;
+    color: #fff;
+    }
+    .nav-link:hover{
+        color: #f25454;
+    }
+    .nav-link span{
+        color: #f25454;
+    }
+  /*end*/
+ 
+  /*logo facebook-twitter-instagram*/
+  .item .logo2{
+    width:22%;
+    height: auto;
+  display: flex;
+  }
+ .navbar .item .logo2 li {
+    list-style: none;
+    }
+    .navbar .item .logo2 li .fab{
+        line-height: 25px;
+         margin-left: 10px;
+        color: #fff;
+        }
+       .navbar .item .logo2 li .fab:hover{
+            color: #f25454;
+            }
+             /*end*/
+
+
+ /*line*/
+   header .carousel  .line{background-color:  rgba(255, 255, 255, 0.7);
+    margin-top: 10px; position: fixed; top: 50px; left: 0px;right: 0px;  width: 100%;height: 1px; }
+ /*end*/
+                
+ 
+ /*text on image*/
+                            header .carousel  .child{
+                                width: auto;
+                                height: auto;
+                                margin-top: 300px;
+                            }
+
+                            header .carousel .child h1{
+                                text-align: center;
+                                font-weight: 700;
+                                line-height: 1;
+                                color: #fff;
+                                font-size: 70px;
+                                font-family: "Poppins", sans-serif;
+                            }
+            /*end*/
+
+ /*About*/
+                           
+ #about{
+     width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-top: 100px;
+ }
+ #about .container{
+    width: 80%;
+    height: auto;
+}
+#about .container .f-child {
+    width: 66%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+#about .container .s-child{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#about .container .s-child .child{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+#about .container .s-child .child p{
+    font-size: 14px;
+    line-height: 1.75em;
+    color: #666;
+}
+
+
+#about .container .s-child .child .skills{
+    width: 100%;
+    height: auto;
+   
+    overflow: hidden;
+    
+}
+#about .container .s-child .child .skills .bar .progress{
+    height: 4px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    border-radius: 2px;
+    
+   
+}
+#about .container .s-child .child .skills .bar .progress-heading {
+  width: 100%;
+  height: 50px;
+ 
+}
+#about .container .s-child .child .skills .bar .progress-heading p{
+    color: #444;
+    font-weight: 600;
+  }
+  #about .container .s-child .child .skills .bar .progress-heading .progress-value{
+  text-align: right;
+  width: 10%;
+  height: auto;
+  font-weight: 500;
+
+  }
+
+
+#about .container .s-child .child .skills .bar .progress .progress-bar{
+    background-color: #f25454;
+    border-radius: 0 2px 2px 0;
+
+ 
+}
+
+
+
+
+/*f-child*/
+.container .f-child p{
+    text-align: center;
+    margin-top: 20px;
+ }
+  .container .f-child .line{
+     width: 50px;
+     height: 0.5px;
+     background-color: black;
+     margin: auto;
+     transition: width 0.5s;
+     
+ }
+  .container .f-child .line:hover{
+     width: 70px;
+ }
+  .container .f-child  h2{
+   text-align: center;
+   font-size: 38px;
+  
+  
+ }
+ 
+ /*end*/
+ #team
+{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+ #team .container{
+    width: auto;
+    height: auto;
+}
+#team .container .f-child {
+    width: 66%;
+    height: auto;
+    margin: auto;
+    padding: 20px; 
+}
+ #team .container .s-child {
+   width: 100%;
+   height: auto;
+   display: flex;
+}
+#team .container .s-child .child {
+    width: 30%;
+    height: auto;
+    margin:20px;
+ }
+ #team .container .s-child .child .img img {
+    width: 100%;
+    border-radius: 5px;
+ }
+ #team .container .s-child .child .img:hover{
+    transform: scale(1.1);
+   
+ }
+ #team .container .s-child .child .text {
+ width: 100%;
+ height: auto;
+ }
+ #team .container .s-child .child .text h5 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+ }
+ #team .container .s-child .child .text h6 {
+    color: #666;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+ }
+
+ .question{
+     margin-top: 100px;
+     width: 100%;
+     height: auto;
+ }
+ .question .container{
+    width: 60%;
+height: auto;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+.question .container h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+.question .container button{
+    background-color: #f25454;
+    color: #fff;
+    border-radius: 3px;
+    padding: 18px 30px;
+    line-height: 1;
+    font-weight: 700;
+    border-width: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+#service{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+#service .container{
+    width: 80%;
+    height: auto;
+}
+#service .container .f-child {
+    width: 66%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+#service .container .s-child {
+    width: 100%;
+    height: auto;
+    
+}
+#service .container .s-child ul {
+   display: flex;
+    padding: 10px;
+}
+#service .container .s-child ul li  {
+  margin-right: 40px;
+ }
+#service .container .s-child ul li h3 i {
+    color: #f25454;
+    margin-right: 20px;
+ }
+ #service .container .s-child ul li h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+#service .container .s-child ul li p{
+    margin-left: 30px;
+    font-size: 14px;
+    text-align: left;
+}
+ 
+#client{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+#client .container{
+   width: 80%;
+   height: auto;
+}
+#client .container .f-child{
+   width: 70%;
+   height: auto;
+   margin: auto;
+   margin-bottom: 50px;
+}
+#client .container .s-child{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+ 
+ #client .s-child .img img{
+    width: 70%;
+    height: auto;
+   margin-left: 20px;
+     border-radius: 100px;
+ }
+ #client .s-child .img h3{
+   text-align: center;
+   font-size: 16px;
+   font-weight: 600;
+ }
+ #client .s-child .img h5{
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+  }
+  #client .container .text {
+   width: 60%;
+   height: auto;
+   margin: auto;
+  }
+  #client .container .text p {
+    font-size: 25px;
+    line-height: 1.5em;
+    text-align: center;
+
+   }
+   #client .container .text p i{
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    line-height: 1;
+    font-style: normal;
+
+   }
+   #contact {
+       width: 100%;
+       height: auto;
+       margin-top: 100px;
+   }
+   #contact .container {
+    width: 80%;
+    height: auto;
+}
+#contact .container .f-child {
+    width: 65%;
+    height: auto;
+    margin: auto;
+}
+#contact .container .s-child {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#contact .container .s-child .child{
+    width: 50%;
+    height: auto;
+}
+
+#contact .container .s-child .child ul li {
+  list-style: none;
+margin-bottom: 50px;
+margin-left: -40px;
+
+    }
+    #contact .container .s-child .child   h3 {
+        font-weight: 600;
+      margin-bottom: 50px;
+      
+          }
+
+#contact .container .s-child .child ul li h4{
+margin-left: 50px;
+font-size: 18px;
+font-weight: 600;
+text-align: left;
+
+}
+#contact .container .s-child .child ul li h4:hover{
+    color: #f25454;
+    
+    }
+#contact .container .s-child .child ul li p{
+   text-align: left;
+padding-left: 60px;
+    font-size: 14px;
+    font-weight: 600;
+    }
+    #contact .container .s-child .child ul li .far,.fas{
+        color: #f25454;
+       margin-right:20px;
+     
+        }
+        #contact .container .s-child .child2{
+            width: 50%;
+            height: auto;
+        
+            
+        }
+        #contact .container .s-child .child2 input{
+            width: 100%;
+            height: 50px;
+            border-radius: 5px;
+            
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        #contact .container .s-child .child2 textarea{
+            width: 100%;
+            height: 100px;
+            border-radius: 5px;
+            padding: 10px;
+          
+        }
+        #contact .container .s-child .child2 button{
+            background-color: #f25454;
+            color: #fff;
+            padding: 15px;
+            line-height: 1;
+            font-weight: 700;
+            border-radius: 3px;
+            font-size: 14px;
+            text-align: center;
+            border: 1px solid transparent;
+            margin-top: 50px;
+            
+        }
+        #contact .container .s-child .child2 button .far{
+            color: inherit;
+            padding-right: 5px;
+            font-weight: 900;
+            font-family: "Font Awesome 5 Free";
+            font-size: 14px;
+        }
+
+        .footer{
+            width: 100%;
+            height: 500px;
+            background-image: url(../img/3004481.jpg);
+        
+            background-position: center center;
+            background-size: cover;
+            margin-top: 100px;
+            
+        }
+        .footer .container{
+            width: 80%;
+            height: auto;
+            position: relative;
+            
+        }
+        .footer .container .logo{
+            width:5%;
+            height: 10%;
+border-radius: 50%;
+            background-color:#f25454;
+            
+           position: absolute;
+           top:-25px;
+           left: 560px;
+        
+            
+        }
+        .footer .container .logo a i{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+      
+            
+        }
+     
+        .footer .container .img{
+            width: 20%;
+            height: auto;
+           position: absolute;
+           top: 100px;
+      
+            
+        }
+        .footer .container .parent{
+            width: 100%;
+            height: auto;
+            
+         display: flex;
+         position: absolute;
+         top: 200px;
+      
+            
+        }
+        .footer .container .parent .child{
+            width: 25%;
+            height: auto;
+            padding: 10px;
+          
+      
+            
+        }
+        .footer .container .parent .child ul li{
+            list-style: none;
+        }
+        .footer .container .parent .child ul li h5{
+           text-align: left;
+           font-size: 20px;
+           line-height: 20px;
+           color: #fff;
+           margin-bottom: 20px;
+           font-weight: 600;
+           margin-top: 10px;
+      
+            
+        }
+        .footer .container .parent .child ul li p{
+            margin: 0 0 10px;
+            color: #b0b0b0;
+            font-size: 14px;
+           
+             
+         }
+         .footer .container .parent .child ul li button{
+         float: left;
+         margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 2px 10px;;
+             background-color: transparent;
+             border: 1px solid #b0b0b0;
+             font-size: 13px;
+             border-radius: 3px;
+             color: #b0b0b0;
+         }
+         .footer .container .parent .child ul li button:hover{
+            color: #f25454;
+            }
+         .clr{clear: both;}
+
+         .lastest{
+             width: 100%;
+             height: auto;
+            float: left;
+             background-color: rgb(15, 12, 12);
+         }
+         .lastest .logo{
+           width: 50%;
+            
+            
+        }
+        .lastest .logo ul {
+           display: flex;
+           padding: 20px;
+           justify-content: flex-start;
+           float: left;
+           
+            
+        }
+        .lastest .logo ul li{
+            margin-right: 10px;
+            margin-left: 50px;
+            list-style: none;
+           
+         }
+         .lastest .logo ul li i{
+           color: white;
+           
+         }
+         .lastest .logo ul li i:hover{
+            color: #f25454;
+            
+          }
+        .lastest .text {
+            width:50%;
+          float: right;
+         padding: 20px;
+             
+         }
+         .lastest .text p{
+           text-align: right;
+margin-right: 100px;
+            letter-spacing: .5px;
+            color: #b0b0b0;
+            font-family: "Poppins", sans-serif;
+            font-size: 14px;
+             
+         }
+         .lastest .text p a{
+   
+            color: #fff;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            letter-spacing: .5px;
+          }
+          .lastest .text p a:hover{
+   text-decoration: none;
+            color: #f25454;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            letter-spacing: .5px;
+          }
